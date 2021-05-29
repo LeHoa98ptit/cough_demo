@@ -32,7 +32,7 @@ def batching(audio, chunk, batch_size=1):
     while idx + num_sample <= audio.shape[1]:
         yield audio[:, idx: idx + num_sample].reshape(batch_size, audio.shape[0], -1)
         idx += num_sample
-
+#lehoa
 
 class GMM_Detector:
     def __init__(self):
