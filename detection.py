@@ -24,7 +24,7 @@ class Extractor:
         feature = feature.reshape(shape[:-1] + feature.shape[-2:])[:, 0]
         feature = feature.transpose(1, 2)
         return feature
-
+#lehoa
 
 def batching(audio, chunk, batch_size=1):
     idx = 0
