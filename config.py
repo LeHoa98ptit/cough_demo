@@ -12,5 +12,5 @@ class ConfigLSTM(object):
     dropout_p = 0.5
     output_size = 2
     sample_rate = 16000
-    #lehoa1212121
+    #lehoa12121211
     
