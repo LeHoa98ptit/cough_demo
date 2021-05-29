@@ -184,4 +184,4 @@ class LSTMDetector:
 if __name__ == '__main__':
     detector = LSTMDetector()
     print(detector.predict("/home/chiendb/Desktop/cough_classification/Data_Cough/audio/Cough1.wav"))
-    #lehoa
+    #lethihoa
